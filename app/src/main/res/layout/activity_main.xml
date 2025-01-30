@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/mail_button"
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:src="@drawable/mail"
+            android:translationX="21dp"
+            android:translationY="15dp"
+            android:background="@android:color/transparent"
+            tools:ignore="ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/menu_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/menu_button"
+            android:translationX="310dp"
+            android:translationY="15dp"
+            android:background="@android:color/transparent"
+            tools:ignore="ContentDescription"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:translationY="75dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto_bold"
+            android:text="@string/find_text"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:translationX="12dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:translationY="200dp"
+        android:orientation="horizontal"
+        android:gravity="start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/all_services"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/best_services"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:fontFamily="@font/roboto_bold"
+            android:textStyle="bold"
+            android:translationX="12dp" />
+
+        <ImageButton
+            android:id="@+id/full_view_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/group_10__1_"
+            android:translationX="50dp"
+            android:translationY="10dp"
+            android:background="@android:color/transparent"
+            tools:ignore="ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/mini_view_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mini_view"
+            android:translationX="60dp"
+            android:translationY="10dp"
+            android:background="@android:color/transparent"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:translationY="300dp"
+        android:orientation="vertical"
+</androidx.constraintlayout.widget.ConstraintLayout>

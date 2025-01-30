@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">InnoCityApp</string>
+    <string name="find_text">Find service</string>
+    <string name="best_services">Best services</string>
+</resources>
